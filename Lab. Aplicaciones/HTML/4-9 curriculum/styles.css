@@ -1,0 +1,35 @@
+body {
+    background-color: #bfbfbf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0,5em;
+    word-spacing: 1,5em;
+}
+
+h1 {
+    text-align: center;
+    color: #1f497d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+h2 {
+    color: #632423;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+ul {    
+    font-style: italic;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+img {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
