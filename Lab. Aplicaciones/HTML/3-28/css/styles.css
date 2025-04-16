@@ -1,0 +1,64 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: peru;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    color: aquamarine;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-style: italic;
+    text-align: center;
+}
+
+h4 {
+    color: tomato;
+    font-style: italic;
+    text-align: center;
+}
+
+h5 {
+    color: cornflowerblue;
+    font-style: italic;
+    text-align: center;
+}
+
+h6 {
+    color: mediumspringgreen;
+    font-style: italic;
+    text-align: center;
+}
+
+span {
+    color: yellow;
+    font-size: xx-large;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+ol, li {
+    list-style: upper-roman;
+}
+*/
+
+ul {
+    list-style: square;
+}
+
+img {
+    width: 480px;
+    height: 300px;
+
+}
