@@ -1,5 +1,8 @@
+body {
+    background-color: #030013;
+}
+
 #titulo {
-font-size: 36px;
 background-color: #5b4caf;
 color: rgb(0, 255, 0);
 padding: 5px;
@@ -7,17 +10,25 @@ text-align: center;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+h1 {
+    font-size: 48px;
+}
+
 .caja {
+height: 128px;
 background-color: #e6e6e6;
 margin: 10px;
-padding: 20px;
+padding: 15px;
 font-family:Arial, Helvetica, sans-serif;
+}
 
+.poroto {
+    display:flex;
 }
 
 img {
     margin-right: 15px;
-    height: 72px;
-    width: 72px;
-    float: left;
+    height: 128px;
+    width: 128px;
+
 }
