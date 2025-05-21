@@ -1,0 +1,16 @@
+body {
+    background-color: blanchedalmond;
+    margin: 5px;
+}
+
+h1 {
+    border: 50px;
+    
+    background-color: rgb(250, 108, 108);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    height: 240px;
+    width: 340px;
+}
