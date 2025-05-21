@@ -4,13 +4,16 @@ body {
 }
 
 h1 {
-    border: 50px;
-    
+    border: 5px solid black;
+    width: fit-content;
+    padding: 5px;
     background-color: rgb(250, 108, 108);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
+    padding: 5px;
+    background-color: black;
     height: 240px;
     width: 340px;
 }
