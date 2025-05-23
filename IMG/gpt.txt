@@ -1,1 +1,0 @@
-crea el codigo de una pagina html dentro de una carpeta que contenga una imagen y dos textos donde lleve a otras dos paginas con imagenes. Las paginas adicionales deben estar dentro de otra carpeta. Crear una carpeta donde dentro tenga un archivo css que sirva para todas las paginas

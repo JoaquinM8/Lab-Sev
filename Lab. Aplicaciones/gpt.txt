@@ -1,1 +1,4 @@
-crea el codigo de una pagina html dentro de una carpeta que contenga una imagen y dos textos donde lleve a otras dos paginas con imagenes. Las paginas adicionales deben estar dentro de otra carpeta. Crear una carpeta donde dentro tenga un archivo css que sirva para todas las paginas
+- crea el codigo de una pagina html dentro de una carpeta que contenga una imagen y dos textos donde lleve a otras dos paginas con imagenes. Las paginas adicionales deben estar dentro de otra carpeta. Crear una carpeta donde dentro tenga un archivo css que sirva para todas las paginas
+
+- genera el codigo en html y css para visual studio code de una carpeta principal que contenga la página principal y una subcarpeta para otras 2 páginas, el archivo css, y las imagenes respectivamente. 
+En la página principal va un texto como titulo y otros que sirven de enlace para las otras dos páginas. Cada una de estas páginas adicionales contiene una imagen y un enlace para regresar a la página principal
