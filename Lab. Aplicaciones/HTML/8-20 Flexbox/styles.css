@@ -1,0 +1,28 @@
+.borde {
+    border: solid 5px orange;
+    margin: auto;
+    max-width: 98%;
+    height: 100vh;
+    display: flex;
+}
+
+.c1 {
+    height: 48px;
+    width: 48px;
+    background-color: orange;
+    margin: 5%;
+}
+
+.c2 {
+    height: 48px;
+    width: 48px;
+    background-color: rgb(255, 123, 0);
+    margin: 5%;
+}
+
+.c3 {
+    height: 48px;
+    width: 48px;
+    background-color: rgb(255, 51, 0);
+    margin: 5%;
+}
