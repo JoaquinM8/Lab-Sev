@@ -1,0 +1,17 @@
+table {
+    background-color: aquamarine;
+    border: solid;
+    text-align: center;
+}
+
+td {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 5px gray;
+    
+}
+
+th {
+    background-color: black;
+    color: wheat;
+}
