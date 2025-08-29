@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla dinámica</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 300px;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    caption {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Ejemplo 3: Con título y secciones</h2>
+  <table id="tablaNotas">
+    <caption>Notas de Lab. de Programación</caption>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Aquí se insertarán los datos con JS -->
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" id="total"></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script>
+    // Array con los datos de los estudiantes
+    const estudiantes = [
+      { nombre: "Juan", nota1: 8, nota2: 4 },
+      { nombre: "María", nota1: 9, nota2: 4},
+      { nombre: "Pedro", nota1: 7, nota2: 4 },
+      { nombre: "Lucía", nota1: 10, nota2: 4 },
+      
+    ];
+
+    // Seleccionamos el cuerpo de la tabla
+    const tbody = document.querySelector("#tablaNotas tbody");
+    //const total = document.getElementById("total");
+
+    // Recorremos el array y creamos filas dinámicas
+    estudiantes.forEach(est => {
+      let fila = document.createElement("tr");
+
+      fila.innerHTML = `
+        <td>${est.nombre}</td>
+        <td>${est.nota1}</td>
+        <td>${est.nota2 || ''}</td>
+      `;
+
+      tbody.appendChild(fila);
+    });
+
+    // Actualizamos el total de estudiantes en el tfoot
+    total.textContent = `Total de estudiantes: ${estudiantes.length}`;
+  </script>
+</body>
+</html>
